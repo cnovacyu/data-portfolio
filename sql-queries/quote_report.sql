@@ -1,3 +1,4 @@
+# Pulls all open quotes that have not expired, includes sales rep and region
 SELECT "customer"."name" AS "Customer", "quotehed"."quotenum" AS "Quote #",
 "quotedtl"."quoteline" AS "Line", "quotedtl"."partnum" AS "Part Num",
 "quotedtl"."linedesc" AS "Part Description", "quotehed"."shortchar10" AS "TSR",
